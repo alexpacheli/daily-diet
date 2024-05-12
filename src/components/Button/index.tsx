@@ -2,8 +2,6 @@ import { ButtonStyleProps, Container, Icon, Title } from "./styles";
 
 import { TouchableOpacityProps } from "react-native";
 
-import { Icon } from "phosphor-react-native";
-
 type Props = TouchableOpacityProps & {
   title: string;
   type?: ButtonStyleProps;
